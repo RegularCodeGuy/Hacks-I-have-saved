@@ -1,0 +1,1 @@
+javascript:(function()%7Bvar i %3D 0%3B var limit %3D 1000000%3B function win () %7B setTimeout(function () %7B document.getElementById('bigCookie').click()%3B i%2B%2B%3B if (i < limit) %7B win()%3B %7D %7D%2C 5)%7D win()%3B%7D)()%3B
